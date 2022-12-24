@@ -13,3 +13,9 @@ string [] InitArray(int N)
         a[i]=Convert.ToString(Console.ReadLine());
         return a;
 }
+
+void PrintArrey(string [] a)
+{
+    for(int i=0;i<a.Length;i++)
+        System.Console.WriteLine($"{a[i],5}");
+}
