@@ -54,3 +54,13 @@ else
     }
     return finalarrey;
 }
+
+string [] initialarrey;
+string [] finalarrey;
+int n;
+System.Console.WriteLine($"Введите количество строк");
+n=Convert.ToInt32(Console.ReadLine());
+initialarrey=InitArray(n);
+finalarrey=SerrchAndCount(initialarrey);
+System.Console.WriteLine($"Строки длинной 3 и менее сиволов:");
+PrintArrey(finalarrey);
